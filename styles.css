@@ -1,23 +1,27 @@
-body, h1, p {
-    font-family: "Arimo", sans-serif;
-    font-optical-sizing: auto;
+body,
+h2,
+p {
+    font-family:"Helvetica", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+    color: #8c553d;
+}
 
 h1 {
     color: #b46632;
     font-size: clamp(2rem, 7vw, 5rem);
     text-align: center;
-    font-weight: bold;
     text-transform: uppercase;
+    font-family: "Coming Soon", cursive;
+    font-style: normal;
+}
+
+h2 {
+    margin: 0;
 }
 
 p {
-    color: #8c553d;
     font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 img {
@@ -28,4 +32,14 @@ img {
 body {
     background-color: #f8e7d8;
     margin: 0;
+}
+
+.intro {
+    text-align: center;
+    margin: 0 2rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.post {
+    margin: 2rem 1rem;
 }
