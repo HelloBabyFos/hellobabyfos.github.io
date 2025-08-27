@@ -32,6 +32,8 @@ img {
 body {
     background-color: #f8e7d8;
     margin: 3rem 0 0 0;
+    position: relative;
+    min-height: 120vh;
 }
 
 .intro {
@@ -42,4 +44,15 @@ body {
 
 .post {
     margin: 2rem 1rem;
+}
+
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 8px;
+    padding: 0.5rem 0;
 }
